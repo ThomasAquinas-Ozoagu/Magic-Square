@@ -1,0 +1,36 @@
+//This program will find all the possible 3x3 magic squares
+Declear couter = 1
+Create method that accepts 9 numbers and couter value, assigns them to a 3x3 array and whose name shall be array number (Couter)
+Creat method that accepts a 3x3 array and prints it
+Declear 9 integers a, b, c, d, e... all = 1
+    for integer 1 <= 9
+        for interger 2 <= 9 
+        if integer 2 != integer 1
+        continue
+            for interger 3 <= 9 
+            if int 3 = int 1 or = int 2
+            continue
+                for interger 4 <= 9  int 4 ++
+        ....
+                for integer 9 <=9
+                if int 9 = int 8 or int 7 or 6....
+                continue
+                if  a + b + c !=15
+                    break
+                if d + e + f !=15
+                    break
+                if g + h + i !=15
+                    break
+                    Call array method and pass a to i and couter
+                    increment counter
+                    print this is the counter'th result 
+                    print array(number couter)
+                    close loop
+
+
+combining FOR with IF, Count = 362880 times --> count confirmed
+a b c
+d e f
+g h i
+  
+ 8

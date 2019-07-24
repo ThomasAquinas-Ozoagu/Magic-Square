@@ -1,0 +1,44 @@
+package com.thomasaquinas;
+/* This program will find all possible magic squares */
+/* This version uses only for statement */
+public class MagicSquare {
+    //Variable declaration
+
+    // static int a=1, b=1, c=1, d=1, e=1, f=1, g=1, h=1, i=1;
+    //Program Begins
+    public static void main(String[] args) {
+        int count = 0;
+        for (int a = 1; a <= 9; a++) {
+            for (int b = 1; b <= 9; b++) {
+                if (b != a) {
+                    for (int c = 1; c <= 9; c++) {
+                        if (c!=b && c!=a) {
+                            for (int d = 1; d <= 9; d++) {
+                                if (d != c && d != b && d != a) {
+                                    for (int e = 1; e <= 9; e++) {
+                                        if (e != d && e != c && e != b && e != a) {
+                                            for (int f = 1; f <= 9; f++) {
+                                                if (f != e && f != d && f != c && f != b && f != a) {
+                                                    for (int g = 1; g <= 9; g++) {
+                                                        if (g != f && g != e && g != d && g != c && g != b && g != a) {
+                                                            for (int h = 1; h <= 9; h++) {
+                                                                if (h != g && h != f && h != e && h != d && h != c && h != b && h != a) {
+                                                                    for (int i = 1; i <= 9; i++) {
+                                                                        if (i != h && i != g && i != f && i != e && i != d && i != c && i != b && i != a) {
+                                                                            if (a+b+c==15 && d+e+f==15 && g+h+i==15 && a+d+g==15 && b+e+h==15 && c+f+i==15 && a+e+i==15 && g+e+c==15){
+                                                                            count += 1;
+                                                                            System.out.println("Result No "+count+" is "+a+b+c+d+e+f+g+h+i);
+                                                                        }}
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                    }}}}}}}}
+//    public Array grid(int a, int b, int c, int d, int e, int f, int g, int h, int i) {
+                                    }
+                                }
